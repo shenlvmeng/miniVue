@@ -1,0 +1,33 @@
+{
+  "name": "minivue",
+  "version": "0.1.0",
+  "description": "mini-mvvm framework refered to Vue.js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --inline --hot",
+    "build": "webpack --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenlvmeng/miniVue.git"
+  },
+  "keywords": [
+    "mvvm",
+    "frontend"
+  ],
+  "author": "shenlvmeng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shenlvmeng/miniVue/issues"
+  },
+  "homepage": "https://github.com/shenlvmeng/miniVue#readme",
+  "dependencies": {
+    "webpack": "^2.3.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack-dev-server": "^2.4.2"
+  }
+}

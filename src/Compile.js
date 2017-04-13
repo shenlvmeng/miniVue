@@ -18,9 +18,9 @@ Compile.prototype = {
 	},
 
 	node2fragment: function (el) {
-		var fragment = document.createDocumentFragment(), 
+		var fragment = document.createDocumentFragment(),
 			child;
-		while (child = el.firstChild) {
+		while (child = el.firstChild) { // eslint-disable-line
 			fragment.appendChild(child);
 		}
 		return fragment;
